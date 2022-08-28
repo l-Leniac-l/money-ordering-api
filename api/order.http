@@ -1,0 +1,8 @@
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+    "bankId": "f0b48033-dbb2-4bd5-b24d-8f8763e9461f",
+    "amount": 100000.56,
+    "additionalInfo": "credit cards"
+}
